@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.zack{
+    @apply text-neutral-600;
+    line-height: 1.8;
+}
