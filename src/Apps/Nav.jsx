@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 
 const Nav = () => {
   return (
-    <div className='w-screen bg-amber-800 flex justify-evenly h-12'>
-      <nav className='flex gap-4 items-center'>
-        <button><Link to='/'>To-do List</Link></button>
-        <button><Link to='/quote'>Quote Generator</Link></button>
-        <button><Link to='/recipe'>Recipe Finder</Link></button>
+    <div className='w-screen bg-gray-300 text-gray-900 border-b border-gray-300 flex justify-center h-12 p-2'>
+      <nav className='flex text-sm lg:gap-4 gap-2 '>
+        <button className='lg:px-4 px-2  py-1 rounded-md border border-gray-300 hover:bg-gray-500 bg-gray-100 transition' ><Link to='/'>To-do List</Link></button>
+        <button className='lg:px-4 px-2 py-1 rounded-md border border-gray-300 hover:bg-gray-500 bg-gray-100 transition'><Link to='/quote'>Q-Generator</Link></button>
+        <button className='lg:px-4 px-2 py-1 rounded-md border border-gray-300 hover:bg-gray-500 bg-gray-100 transition'><Link to='/recipe'>Recipe Finder</Link></button>
       </nav>
     </div>
   );

@@ -31,7 +31,7 @@ const RecipeFinder = () => {
     <div>
       <div>
         <Nav />
-        <div className='lg:px-12 px-4'>
+        <div className='lg:px-12 px-4 mt-8'>
           <h1 className='text-4xl lg:text-5xl text-neutral-800 bg-neutral-200
           rounded-lg font-bold text-center'>Recipe Finder</h1>
           
