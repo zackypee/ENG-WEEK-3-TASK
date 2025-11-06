@@ -166,7 +166,7 @@ const RecipeFinder = () => {
               <p className=' zack'>
                 {meal.strInstructions}
               </p>
-              <ul className='items-center gap-2 justify-start flex mt-8  pl-4'>
+              <ul className='items-center gap-2 justify-start flex mt-8 mb-12  pl-4'>
                 {meal.strYoutube && 
                   <li ><a href={meal.strYoutube} target='_blank' rel='noreferrer'
                   className='bg-neutral-200 font-light text-base px-6 py-2 rounded-full hover:bg-neutral-400 transition-all duration-150 hover:text-neutral-800'>Video </a></li>
